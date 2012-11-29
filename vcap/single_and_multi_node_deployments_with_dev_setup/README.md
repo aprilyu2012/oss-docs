@@ -130,9 +130,9 @@ This section will guide you through installation and verification of a single no
 		bundle exec rake full[1]
 	
 	During the first time, Yeti will prompt you for information about your environment:
-        - target
-        - test user/test password
-        - admin user/admin password
+	- target
+	- test user/test password
+	- admin user/admin password
         <br>target should be "api.vcap.me".
         <br>This information except password is saved to ~/.bvt/config.yml file.
         <br>When run the second time around, Yeti will not prompt for the information again.
